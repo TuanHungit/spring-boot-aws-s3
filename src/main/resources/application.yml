@@ -1,0 +1,27 @@
+cloud :
+  aws :
+    s3 :
+      access :
+        key : AKIAW45HVHO3NOU7YXAS
+      secret :
+        key : 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
+      region:
+        static: us-east-1
+        stack:
+          auto: false
+
+application:
+  bucket:
+    name: cars-144
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 8080
