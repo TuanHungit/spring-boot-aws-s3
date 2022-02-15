@@ -2,9 +2,9 @@ cloud :
   aws :
     s3 :
       access :
-        key : AKIAW45HVHO3NOU7YXAS
+        key :
       secret :
-        key : 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
+        key :
       region:
         static: us-east-1
         stack:
